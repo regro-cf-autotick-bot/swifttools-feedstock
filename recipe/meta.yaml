@@ -1,5 +1,5 @@
 {% set name = "swifttools" %}
-{% set version = "3.0.16" %}
+{% set version = "3.0.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/swifttools-{{ version }}.tar.gz
-  sha256: 7fb62adf20896e75622a9a966a5ee6ded356c2ae83d8a4a312ee40cd498e1962
+  sha256: 1ce7904add80325d71ed8b84b99e676e77685773cabc985e9903cc1ff659769c
 
 build:
   noarch: python
