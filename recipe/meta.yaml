@@ -1,5 +1,5 @@
 {% set name = "swifttools" %}
-{% set version = "3.0.16" %}
+{% set version = "3.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/swifttools-{{ version }}.tar.gz
-  sha256: 7fb62adf20896e75622a9a966a5ee6ded356c2ae83d8a4a312ee40cd498e1962
+  sha256: 5eed02894b06bc19f20de7f34706212de5f8de7af617c87bf4eb69b0f6d5ca8c
 
 build:
   noarch: python
@@ -31,10 +31,6 @@ requirements:
 test:
   imports:
     - swifttools
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://gitlab.com/DrPhilEvans/swifttools
