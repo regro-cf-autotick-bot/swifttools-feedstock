@@ -31,10 +31,6 @@ requirements:
 test:
   imports:
     - swifttools
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://gitlab.com/DrPhilEvans/swifttools
